@@ -1,0 +1,21 @@
+ body {
+     text-align: center;
+     padding-top: 50px;
+     font-family: sans-serif;
+ }
+
+ #cookie {
+     width: 150px;
+     cursor: pointer;
+ }
+
+ #cookie:active {
+     transform: scale(0.9);
+ }
+
+ .shop {
+     margin-top: 20px;
+     border: 1px solid #ccc;
+     padding: 10px;
+     display: inline-block;
+ }

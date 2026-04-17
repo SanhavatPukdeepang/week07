@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <!-- <h1 id="jsdTag">JSD12</h1>
+    <script>
+        const h1 = document.getElementById("jsdTag");
+        h1.style.fontSize = "60px";
+        h1.style.backgroundColor = "pink";
+        h1.style.color = "red";
+        h1.innerText = "Sanhavat";
+        console.log(jsdTag)
+    </script> -->
+
+    <!-- <h1 id="name">User <span style="display: none;" id="surName">pukdeepang</span></h1>
+        <button id = "changName" onclick="changName()">กดเพื่อแสดงชื่อ</button>
+    <script>
+        function changName(){
+            const name= document.getElementById("name");
+            name.innerText = "Sanhavat";
+
+            const surName = document.getElementById("surName");
+            surName.style.display = "inline";
+            document.querySelector('#changName').textContent = "แสดงชื่อแล้ว";
+            document.querySelector('#changName').disabled = true;
+            
+
+        }
+    </script> -->
+
+    <!-- <h1>How many time you click!</h1>
+    <h1 id="numberOfClick">0</h1>
+    <button id="btn" onclick="countOfClick()">Click</button>
+
+    <script>
+        let numberOfClick = 0;
+
+
+        function countOfClick(){
+            numberOfClick = numberOfClick + 1
+            updateCountOfNumber()
+        }
+
+        function updateCountOfNumber(){
+            document.getElementById("numberOfClick").innerText = numberOfClick;
+        }
+    </script> -->
+
+    <h1>เครื่องคิดเลข</h1>
+    <div class="column">
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+    </div>
+    <div class="column">
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+    </div>
+    <div class="column">
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+    </div>
+    <div class="column">
+        <button id="0">0</button>
+        <button id=".">.</button>
+        <button id="=">=</button>
+    </div>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        button {
+            width: 80px;
+            height: 50px;
+            border: 1px solid #000;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+    </style>
+
+    <script>
+
+    </script>
+
+</html>
